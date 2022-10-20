@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  AM_URL: 'https://openam-rcook-demo3.forgeblocks.com/am',
+  REALM_PATH: 'alpha',
+  WEB_OAUTH_CLIENT: 'js-sdk',
+  JOURNEY_LOGIN: 'Login',
+  JOURNEY_REGISTER: 'Register',
+  API_URL: 'https://sdkapp.example.com:8443',
+  APP_URL: 'https://sdkapp.example.com:8443/callback'
 };
 
 /*

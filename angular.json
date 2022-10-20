@@ -62,6 +62,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "ssl": true,
+            "port": 8443,
+            "host": "sdkapp.example.com"
+          },
           "configurations": {
             "production": {
               "browserTarget": "paper-dashboard-angular-3:build:production"
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
